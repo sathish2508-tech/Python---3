@@ -1,0 +1,6 @@
+M = int(input())
+P = int(input())
+C = int(input())
+Two_sub = (((M + P) >= 100) or ((P + C) >= 100)) or ((M + C) >= 100)
+Total = (M + P + C) >= 180
+print((Two_sub) and (Total))
