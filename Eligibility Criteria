@@ -1,0 +1,5 @@
+M = int(input())
+P = int(input())
+C = int(input())
+sum = M + P + C
+print(sum >= 180 or ((M >= 70) and (P >= 60) and (C >= 60)))
