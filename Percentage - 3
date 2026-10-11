@@ -1,0 +1,4 @@
+n1 = int(input())
+n2 = int(input())
+value = float((n1 / 100) * 500)
+print(value == n2)
