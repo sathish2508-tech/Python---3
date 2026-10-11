@@ -1,0 +1,5 @@
+A = int(input())
+B = int(input())
+less = (A < 60) or (B < 60)
+greather = (A > 80) or (B > 80)
+print(less and greather)
