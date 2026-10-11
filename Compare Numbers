@@ -1,0 +1,5 @@
+A  = int(input())
+B = int(input())
+Greather = (A > 35) and (B > 35)
+value = A > B
+print(Greather or value)
