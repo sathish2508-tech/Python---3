@@ -1,0 +1,4 @@
+num = input()
+Between = ((int(num)) > 50) and ((int(num)) < 100)
+Equal = (int(num[0])) == 7
+print((Between) or (Equal))
