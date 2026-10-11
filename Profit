@@ -1,0 +1,3 @@
+selling = int(input())
+buying = int(input())
+print(selling > buying)
