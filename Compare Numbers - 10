@@ -1,0 +1,5 @@
+A = int(input())
+B = int(input())
+less = (A < 20) or (B < 20)
+Greater = (A > 30) or (B > 30)
+print(less and Greater)
