@@ -1,0 +1,4 @@
+num = int(input())
+v1 = num > 25
+v2 = num < 75 
+print(v1 and v2)
