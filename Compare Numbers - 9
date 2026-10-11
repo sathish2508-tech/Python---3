@@ -1,0 +1,7 @@
+num = input()
+v1 = ((int(num[0]) > 7) and (int(num[1]) > 7)) and (int(num[2]) > 7)
+A1 = (((int(num[0])) * (int(num[1]))) <= 30)
+A2 = (((int(num[1])) * (int(num[2]))) <= 30)
+A3 = (((int(num[0])) * (int(num[2]))) <= 30)
+v2 = (A1 and A2) and A3
+print(v1 or v2)
