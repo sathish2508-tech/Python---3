@@ -1,0 +1,5 @@
+num1 = int(input())
+num2 = int(input())
+Area = num1 * num2
+Perimeter = 2 * (num1 + num2)
+print(Area <= Perimeter)
