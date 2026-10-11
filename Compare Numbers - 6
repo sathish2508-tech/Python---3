@@ -1,0 +1,4 @@
+num = input()
+Greater_than = (((int(num[0])) > 4) and ((int(num[1])) > 4)) and ((int(num[2])) > 4)
+First_digit = (int(num[0])) == 6
+print((Greater_than) or (First_digit))
