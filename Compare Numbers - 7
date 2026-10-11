@@ -1,0 +1,4 @@
+A = input()
+v1 = int(A[0] + A[1]) == 19
+v2 = (int(A[2:]) > 30) and (int(A[2:]) < 60)
+print(v1 and v2)
