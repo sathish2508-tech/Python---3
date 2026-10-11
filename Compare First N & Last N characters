@@ -1,0 +1,7 @@
+word = input()
+num = int(input())
+lenght = len(word)
+word1 = lenght - num
+result1 = word[:num]
+result2 = word[word1:lenght]
+print(result1 != result2)
