@@ -1,0 +1,7 @@
+A = int(input())
+B = int(input())
+C = int(input())
+S1 = (A + B) > C 
+S2 = (B + C) > A 
+S3 = (C + A) > B 
+print((S1 and S2) and S3)
