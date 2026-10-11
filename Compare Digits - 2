@@ -1,0 +1,5 @@
+A = input()
+num = int(A)
+Greather_then = num > 25
+Digits = A[0] > A[1]
+print((Greather_then) and (Digits))
