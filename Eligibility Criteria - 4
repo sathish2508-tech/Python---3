@@ -1,0 +1,6 @@
+M = int(input())
+P = int(input())
+C = int(input())
+Sub_total = ((M >= 60) and (P >= 50)) and ((C >= 45) and ((M + P + C) >= 180))
+Two_sub = ((M + P) >= 120) or ((C + P) >= 110)
+print((Sub_total) or (Two_sub))
