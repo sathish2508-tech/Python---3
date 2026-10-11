@@ -1,0 +1,5 @@
+A = int(input())
+B = int(input())
+Sum = (A + B) < 100
+Product = (A * B) < 100
+print((Sum) and (Product))
