@@ -1,0 +1,6 @@
+A = int(input())
+B = int(input())
+Negative = (A < 0) or (B < 0)
+Value = A * B
+Greater_then = (Value) >= (-46)
+print((Negative) and (Greater_then))
