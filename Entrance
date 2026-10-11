@@ -1,0 +1,5 @@
+Age = int(input())
+Status = input()
+Between = (Age > 12) and (Age < 60)
+Statement = (Status == "yes")
+print(Between or Statement)
