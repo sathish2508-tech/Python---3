@@ -1,0 +1,6 @@
+A = int(input())
+B = int(input())
+sum = (A + B) < 10
+diff = (A - B) < 10
+val = (A > 5) and (A < 30)
+print((sum or diff) or val)
