@@ -1,0 +1,5 @@
+A = input()
+v1 = int(A[0]) == 0
+v2 = int(A[1]) == 0
+v3 = int(A[2]) == 0
+print(((v1) or (v2)) or (v3))
