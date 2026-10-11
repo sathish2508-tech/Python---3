@@ -1,0 +1,5 @@
+sample1 = input()
+sample2 = input()
+word2 = len(sample2)
+result =sample1[:word2]
+print(sample1[:word2] == sample2[:word2])
