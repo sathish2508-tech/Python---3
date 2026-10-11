@@ -1,0 +1,5 @@
+num = input()
+con1 = (((int(num[0])) == 1) or ((int(num[1])) == 1)) or ((int(num[2])) == 1)
+con2 = ((int(num[0])) + (int(num[1])) + (int(num[2]))) < 12
+con3 = (int(num[2])) == 5
+print(((con1) and (con2)) and (con3))
